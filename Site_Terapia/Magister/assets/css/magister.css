@@ -4,7 +4,7 @@ html {
     background-size:auto;
 	max-width:100%;    
     height:auto;
-
+    overflow:hidden;
 
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -169,6 +169,7 @@ a:hover, a:active { color:#000; text-decoration: underline; }
 	text-decoration: underline;
     margin-left: 180px;
 }
+
 .sectiontexts {
 	line-height:1.2em;
 	font-size:1.5em;
@@ -178,14 +179,15 @@ a:hover, a:active { color:#000; text-decoration: underline; }
 	color: white;
   text-shadow: black 0.5em 0.3em 0.4em;
 	}
-	.sectiontitles {
+	
+.sectiontitles {
 		line-height:.9em;
 		font-size:7em;
 		text-align: center;
 		margin-top:-30px;
 		margin-bottom:40px;
 		color: white;
-	  text-shadow: black 0.5em 0.3em 0.4em;
+	  text-shadow: black 0.9em 0.5em 0.6em;
 		}
 .tagline {
    	font-size:1.4em;
@@ -208,7 +210,7 @@ a:hover, a:active { color:#000; text-decoration: underline; }
 	font-weight:normal;
 	color: white;
     text-shadow: black 0.5em 0.3em 0.4em;
-    margin-top: 450px;
+    margin-top: 380px;
 }
 
 /********************************************************/
