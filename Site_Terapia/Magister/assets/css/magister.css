@@ -40,8 +40,6 @@ position: absolute;
 	.mainmenu { position: fixed; }
 }
 
-
-
 .navbar-toggle {
 	position:relative;
 	float:left;
@@ -333,7 +331,7 @@ a:hover, a:active { color:#000; text-decoration: underline; }
 	color:#000
 }
 .theme-invert .navbar-toggle {
-	background: rgba(0, 0, 0, 0.12);
+	background: rgba(255, 255, 255, 1);
 }
 .theme-invert .navbar-toggle .icon-bar {
   background: #333;
@@ -342,8 +340,8 @@ a:hover, a:active { color:#000; text-decoration: underline; }
         color: #fff;
     }
 .theme-invert .mainmenu .dropdown-menu a:hover {
-	background:rgba(0,0,0,.1);
-	color:#000;
+	background:rgba(0,0,0,.61);
+	color:#fff;
 }
 
 .theme-invert .title,
