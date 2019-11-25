@@ -1,7 +1,10 @@
 html {
-	background:url(../images/inicial.jpg) fixed;
-	max-width:100%;
+	background:url(../images/inicial.jpg) top;
+    background-repeat: no-repeat;
+    background-size:auto;
+	max-width:100%;    
     height:auto;
+
 
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -11,17 +14,17 @@ html {
 }
 
 body {
-	background:transparent;
-	height:auto;
-	-webkit-font-smoothing: antialiased;
-	-webkit-overflow-scrolling: touch;
-	line-height: 1.5em;
-	font-size:14px;
-	font-family: Helvetica, Arial, sans-serif;
-	color:#fff;
-	color:rgba(255,255,255,.8);
-	font-weight: normal;
-}
+    background: transparent;
+    height: auto;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    line-height: 1.5em;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+    color: rgba(255,255,255,.8);
+    font-weight: normal;   
+    }
 
 /******** LOGOTIPO *********/
 .logotipo {
@@ -162,8 +165,9 @@ a:hover, a:active { color:#000; text-decoration: underline; }
 	margin-top:-30px;
 	margin-bottom:40px;
 	color: white;
-  text-shadow: black 0.5em 0.3em 0.4em;
+    text-shadow: black 0.5em 0.3em 0.4em;
 	text-decoration: underline;
+    margin-left: 180px;
 }
 .sectiontexts {
 	line-height:1.2em;
@@ -204,7 +208,7 @@ a:hover, a:active { color:#000; text-decoration: underline; }
 	font-weight:normal;
 	color: white;
     text-shadow: black 0.5em 0.3em 0.4em;
-    margin-top: 515px;
+    margin-top: 450px;
 }
 
 /********************************************************/
