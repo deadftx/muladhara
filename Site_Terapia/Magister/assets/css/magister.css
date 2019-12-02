@@ -1,5 +1,5 @@
 html {
-	background:url(../images/inicial.jpg) top;
+	background:url(../images/inicial.jpg) fixed;
     background-repeat: no-repeat;
     background-size:auto;
 	max-width:100%;    
@@ -312,11 +312,10 @@ a:hover, a:active { color:#000; text-decoration: underline; }
 	text-shadow:none;
 }
 
-
-
 /***********************************************************/
 /*                   Inverted theme                        */
 /***********************************************************/
+
 .theme-invert {
 	color:#222;
 	color:rgba(0,0,0,.8);
@@ -331,7 +330,7 @@ a:hover, a:active { color:#000; text-decoration: underline; }
 	color:#fff;
 }
 .theme-invert .btn-link {
-	color:rgba(0,0,0,.8);
+	color:rgba(255,255,255,.8);
 }
 .theme-invert .btn-link:hover, .theme-invert .btn-link:focus, .theme-invert .btn-link:active {
 	color:#000
