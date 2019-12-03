@@ -4,16 +4,11 @@ html {
     max-width: 100%;
     height: auto;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;    
+       
 }
 @media (max-width: 900px) {
     html {
         background-size: auto auto;
-        -webkit-background-size: auto auto;
-        -moz-background-size: auto auto;
-        -o-background-size: auto auto;
         background-position: center;
         zoom: 75%;
     }
