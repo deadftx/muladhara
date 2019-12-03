@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Site_Terapia",
-    "\\Site_Terapia\\Magister",
-    "\\Site_Terapia\\Magister\\assets"
+    "\\assets",
+    "\\assets\\images"
   ],
-  "SelectedNode": "\\Site_Terapia\\Magister\\index.html",
   "PreviewInSolutionExplorer": false
 }
