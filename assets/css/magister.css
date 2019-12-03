@@ -1,5 +1,5 @@
 html {
-    background: url(../images/inicial.jpg);
+    background: url(../images/inicial1.jpg);
     background-repeat: no-repeat;
     max-width: 100%;
     background-size: cover;
@@ -223,7 +223,7 @@ a:hover, a:active { color:#000; text-decoration: underline; }
 
 @font-face {
     font-family: MellaNissa;
-    src: url('fonts/Mella Nissa.ttf');
+    src: url('fonts/MellaNissa.ttf');
 }
 
 .maintitle {
