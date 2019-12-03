@@ -2,14 +2,14 @@ html {
     background: url(../images/inicial.jpg);
     background-repeat: no-repeat;
     max-width: 100%;
-    height: auto;
     background-size: cover;
-       
+    overflow:hidden
 }
 @media (max-width: 900px) {
     html {
         background-size: auto auto;
         background-position: center;
+        overflow:auto;
         zoom: 75%;
     }
 }
