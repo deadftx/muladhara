@@ -1,18 +1,18 @@
 html {
-	background:url(../images/inicial.jpg) fixed;
+    background: url(../images/inicial.jpg);
     background-repeat: no-repeat;
-    background-size:auto;
-	max-width:100%;    
-    height:auto;
-    overflow:hidden;
-
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
-
+    max-width: 100%;    
+    background-size: cover;
+    
 }
-
+@media (max-width: 900px) {
+    html {
+        background-size: auto auto;
+        background-position:center;
+        zoom:75%;
+        
+    }
+}
 body {
     background: transparent;
     height: auto;
@@ -20,7 +20,7 @@ body {
     -webkit-overflow-scrolling: touch;
     line-height: 1.5em;
     font-size: 14px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif,MellaNissa ;
     color: #fff;
     color: rgba(255,255,255,.8);
     font-weight: normal;   
@@ -129,7 +129,9 @@ position: absolute;
 	top:0;
 }
 @media (min-width: 768px) {
-	.section { padding-top:160px;}
+    .section {
+        padding-top:160px;       
+    }
 }
 
 /* Show one of sections */
@@ -188,8 +190,13 @@ a:hover, a:active { color:#000; text-decoration: underline; }
 		margin-top:-30px;
 		margin-bottom:40px;
 		color: white;
-	  /*text-shadow: black 0.9em 0.5em 0.6em;*/
 		}
+@media (max-width: 900px) {
+    .sectiontitles {
+        font-size: 6em;
+    }
+}
+
 .tagline {
    	font-size:1.4em;
 	line-height:1.3em;
@@ -212,7 +219,6 @@ a:hover, a:active { color:#000; text-decoration: underline; }
     color: white;
     text-shadow: black 0.5em 0.3em 0.4em;
     margin-top: 380px;
-    /*box-shadow: inset 0 0 12em black;*/
 }
 
 @font-face {
@@ -227,12 +233,18 @@ a:hover, a:active { color:#000; text-decoration: underline; }
     text-align: center;
     margin-top: -170px;
     margin-bottom: -130px;
-    color: white;
-    /*box-shadow: inset 0 0 1em black;*/
+    color: white;    
+}
+
+@media (max-width: 900px) {
+    .maintitle {
+        font-size: 6em;
+        margin-top: 10px;
+    }
 }
 
 .mainscene {
-    box-shadow: inset 0 0 1em black;
+    box-shadow: inset 0 0 9em black;
 }
 
 
