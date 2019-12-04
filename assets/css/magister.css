@@ -223,7 +223,7 @@ a:hover, a:active { color:#000; text-decoration: underline; }
 
 @font-face {
     font-family: MellaNissa;
-    src: url('fontes/mellanissa1.ttf');
+    src: url('../fontes/mellanissa1.ttf');
 }
 
 .maintitle {
