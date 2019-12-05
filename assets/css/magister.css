@@ -210,9 +210,9 @@ a:hover, a:active { color:#000; text-decoration: underline; }
 		margin-bottom:40px;
 		color: white;
 		}
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .sectiontitles {
-        font-size: 6em;
+        font-size: 4em;
     }
 }
 
@@ -224,7 +224,7 @@ a:hover, a:active { color:#000; text-decoration: underline; }
     text-shadow: black 0.5em 0.3em 0.4em
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1100px) {
 	.lead {
 		font-size:1.3em;
 	}
@@ -262,7 +262,7 @@ a:hover, a:active { color:#000; text-decoration: underline; }
     margin-left: 635px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
     .maintitle {
         font-size: 3.6em;
         margin-top: 10px;
