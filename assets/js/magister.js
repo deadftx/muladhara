@@ -19,8 +19,14 @@ jQuery(document).ready(function($) {
 				$(current_item).addClass( 'active' );
 				var new_section = $( $(current_item).attr('href') );
 				new_section.fadeIn( section_show_time );
-			} );
+			});
+			fecharMenu();
 		}
 		return false;
 	});		
 });
+
+function fecharMenu() {
+	$("#menu").removeClass("dropdown open");
+	$("#menu").addClass("dropdown");
+}
